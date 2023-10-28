@@ -58,6 +58,8 @@ end
 assign uio_oe = 8'b0; // Set all bits of uio_oe to 0 (input mode)
 assign uo_out[0] = div_clk; // Assign the divided clock to the output
 assign uo_out[7:1] = lfsr[9:3]; // Assign a subset of the random number to the output
+
+assign uio_out = 8'b0; // Set all bits of uio_out to 0 (Not in use)
 	 
 //assign uio_out[7:0] = microcontroller_out; 
 //assign uio_oe[7:0] = microcontroller_control;
