@@ -12,6 +12,7 @@ module tt_um_clkdiv (
 );
 
 // Clock Divider
+	
 reg [15:0] counter; // 16-bit register to hold the counter value
 reg        div_clk;  // Divided clock signal
 
